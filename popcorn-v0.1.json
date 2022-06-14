@@ -5,7 +5,7 @@
     "version": "0.1.0",
     "title": "Popcorn API",
     "termsOfService": "http://popcorn-sats.com/terms/",
-    "contact":{
+    "contact": {
       "email": "apiteam@popcorn-sats.com"
     },
     "license": {
@@ -15,7 +15,7 @@
   },
   "host": "localhost:2121",
   "basePath": "/",
-  "tags":[
+  "tags": [
     {
       "name": "accounts",
       "description": ""
@@ -24,7 +24,7 @@
   "schemes": [
     "https"
   ],
-  "paths":{
+  "paths": {
     "/accounts": {
       "post": {
         "tags": [
@@ -51,7 +51,7 @@
           }
         ],
         "responses": {
-          "405":{
+          "405": {
             "description": "Invalid input"
           }
         },
@@ -66,7 +66,7 @@
       }
     }
   },
-  "securityDefinitions":{
+  "securityDefinitions": {
     "popcorn_auth": {
       "type": "oauth2",
       "authorizationUrl": "http://popcorn-sats.com/oauth/dialog",
@@ -82,7 +82,7 @@
       "in": "header"
     }
   },
-  "definitions":{
+  "definitions": {
     "Account": {
       "type": "object",
       "properties": {
@@ -125,27 +125,34 @@
         "username": {
           "type": "string"
         },
-        "firstName":{
-          "type": "string"},
-        "lastName":{
-          "type": "string"},
-        "email":{
-          "type": "string"},
-        "password":{
-          "type": "string"},
-        "phone":{
-          "type": "string"},
-        "userStatus":{
+        "firstName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "userStatus": {
           "type": "integer",
           "format": "int32",
-          "description": "User Status"}
+          "description": "User Status"
+        }
       },
       "xml": {
         "name": "User"
       }
     }
   },
-  "externalDocs":{
+  "externalDocs": {
     "description": "Find out more about Popcorn",
-    "url": "http://popcorn-sats.com"}
+    "url": "http://popcorn-sats.com"
+  }
 }

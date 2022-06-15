@@ -63,6 +63,105 @@
             ]
           }
         ]
+      },
+      "get": {
+        "tags": [
+          "accounts"
+        ],
+        "summary": "Get all accounts",
+        "description": "Get all accounts",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/accounts/{accountId}": {
+      "get": {
+        "tags": [
+          "accounts"
+        ],
+        "summary": "Get a single account",
+        "description": "Get a single account",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "accounts"
+        ],
+        "summary": "Update an existing account",
+        "description": "Update an existing account",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "accounts"
+        ],
+        "summary": "Delete an existing account",
+        "description": "Delete an existing account",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/scan/{accountId}": {
+      "get": {
+        "tags": [
+          "accounts"
+        ],
+        "summary": "Scan an existing account for new transactions",
+        "description": "Scan an existing account for new transactions",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/accounts/position": {
+      "get": {
+        "tags": [
+          "accounts"
+        ],
+        "summary": "Get net position from all accounts",
+        "description": "Get net position from all accounts",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/search": {
+      "get": {
+        "tags": [
+          "accounts"
+        ],
+        "summary": "Search accounts",
+        "description": "Search accounts",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     }
   },

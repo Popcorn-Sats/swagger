@@ -19,6 +19,22 @@
     {
       "name": "accounts",
       "description": ""
+    },
+    {
+      "name": "categories",
+      "description": ""
+    },
+    {
+      "name": "reports",
+      "description": ""
+    },
+    {
+      "name": "transactions",
+      "description": ""
+    },
+    {
+      "name": "users",
+      "description": ""
     }
   ],
   "schemes": [

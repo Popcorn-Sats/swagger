@@ -4,13 +4,13 @@
     "description": "",
     "version": "0.1.0",
     "title": "Popcorn API",
-    "termsOfService": "http://popcorn-sats.com/terms/",
+    "termsOfService": "http://popcornsats.com/terms/",
     "contact": {
-      "email": "apiteam@popcorn-sats.com"
+      "email": "apiteam@popcornsats.com"
     },
     "license": {
       "name": "",
-      "url": "http://popcorn-sats.com/license"
+      "url": "http://popcornsats.com/license"
     }
   },
   "host": "localhost:2121",
@@ -135,7 +135,7 @@
         }
       }
     },
-    "/scan/{accountId}": {
+    "/accounts/scan/{accountId}": {
       "get": {
         "tags": [
           "accounts"
@@ -165,7 +165,7 @@
         }
       }
     },
-    "/search": {
+    "/accounts/search": {
       "get": {
         "tags": [
           "accounts"
@@ -184,7 +184,7 @@
   "securityDefinitions": {
     "popcorn_auth": {
       "type": "oauth2",
-      "authorizationUrl": "http://popcorn-sats.com/oauth/dialog",
+      "authorizationUrl": "http://popcornsats.com/oauth/dialog",
       "flow" : "implicit",
       "scopes": {
         "write:accounts": "modify your accounts",
@@ -268,6 +268,6 @@
   },
   "externalDocs": {
     "description": "Find out more about Popcorn",
-    "url": "http://popcorn-sats.com"
+    "url": "http://popcornsats.com"
   }
 }
